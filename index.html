@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: black;
+        display: inline;
+        text-align: center;
+    }
+    h1{
+        background-color: green;
+        display: inline;
+        text-align: center;
+        font-size: 125px;
+    }
+    button{
+        background-color: green;
+        display: inline;
+        text-align: center;
+        font-size: 120px;
+    }
+</style>
+<body>
+  
+    <div>
+        <h1>STOP WATCH</h1>
+        </div>
+        <div>
+        <h1 id="min">0</h1>
+        <h1 id="sec">0</h1>
+        <h1 id="msec">0</h1>
+    </div>
+    <div>
+        <button id="kchkaro" onclick="start()">start</button>
+        <button onclick="pause()">pause</button>
+        <button onclick="reset()">reset</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
