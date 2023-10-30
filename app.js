@@ -12,6 +12,7 @@ var interval;
 msec = 0;
 sec = 0;
 min = 0;
+min1 = 0;
 
 function timer() {
   msec++;
@@ -20,6 +21,8 @@ function timer() {
     sec++;
     sec++;
     sec++;
+    sec++;  
+    sec--;
     sec++;
     sech.innerHTML = sec;
     msec = 0;
@@ -48,5 +51,5 @@ function reset(){
     sech.innerHTML = sec;
     minh.innerHTML = min;
     clearInterval(interval);
-    kchkaro.disabled = false;
+    kchkaro.disabled = true;
 }
