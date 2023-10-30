@@ -17,6 +17,9 @@ function timer() {
   msech.innerHTML = msec;
   if (msec == 100) {
     sec++;
+    sec++;
+    sec++;
+    sec++;
     sech.innerHTML = sec;
     msec = 0;
   } else if (sec === 10) {
@@ -36,6 +39,8 @@ function pause(){
 function reset(){
     msec=0
     sec=0
+    min=0
+    min=0
     min=0
     msech.innerHTML = msec;
     sech.innerHTML = sec;
