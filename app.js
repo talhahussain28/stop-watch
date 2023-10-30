@@ -7,6 +7,7 @@ var msech = document.getElementById("msec");
 var sech = document.getElementById("sec");
 var minh = document.getElementById("min");
 var btn=document.getElementById('kchkaro')
+var btn2=document.getElementById('haider')
 var interval;
 msec = 0;
 sec = 0;
@@ -35,6 +36,7 @@ function start(){
 function pause(){
     clearInterval(interval);
     kchkaro.disabled = false;
+    btn2.disabled = true;
 }
 function reset(){
     msec=0
